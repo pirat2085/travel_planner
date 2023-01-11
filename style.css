@@ -24,6 +24,11 @@ span{
     background-color: olivedrab;
     margin-top: 8px;
 }
+
+.curindex {
+    visibility: hidden;
+}
+
 .title{
     display: flex;
     flex-direction: row;

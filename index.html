@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <div class="card add-travel-card">
-                    <h3>New travel:</h3>
+                    <h3 id="neweditTravel">New travel:</h3>
                     <input type="text" class="form-control" id="dest_city" placeholder="City">
                     <input type="text" class="form-control" id="dest_country" placeholder="Country">
                     <input type="number" class="form-control" id="budget_value" placeholder="Budget">
@@ -38,7 +38,9 @@
                         <option value="rent_cat">Rent car</option>
                         <option value="taxi">Taxi</option>
                     </select>
+                    <label class="curindex" id="curindex"></label>
                     <button id="save_button" class="btn btn-success btn-save-travel">Save travel</button>
+
 
                 </div>
             </div>
